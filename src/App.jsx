@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 function App() {
   return(
     <div className="min-h-screen flex flex-col items-center justifu-center bg-white text-gray-800 font-sans p-4">
@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
