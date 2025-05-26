@@ -16,7 +16,7 @@ function App() {
       <section className="max-w-4l mx-auto mb-16 grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Technical Skills */}
         <div>
-          <h2 className="text-2xl font-semibold text-blue-800 mb-4">Technical Skills</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Technical Skills</h2>
           <div className="grid grid-cols-2 gap-y-2 text-gray-700">
             <span>Java</span>
             <span>Python</span>
@@ -40,7 +40,7 @@ function App() {
       
         {/* Certifications */}
         <div>
-          <h2 className="text-2xl font-semibold text-blue-800 mb-4">Certifications</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Certifications</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
             <li>AWS Fundamentals Specialization - Coursera</li>
             <li>J.P Morgan Software Engineering - Forage</li>
@@ -58,6 +58,12 @@ function App() {
           </li>
           <li>
             <strong>MindLink - Mental Wellness App:</strong> An accessible, full-stack Java desktop app to help users manage and improve mental wellbeing using MySQL for backend. A safe and secure platform that integrates tracking, data visualisation, journalling, and community building features.
+          </li>
+          <li>
+            <strong>Accenture Coding: Development and Advanced Engineering Project: </strong> Supported a client overwhelmed by the growth of their code base. Built Java-based data search modules with Spring Boot to improve data flow and accessibility and set up Jenikins fo automated builds and CI/CD validation on code commits on every push. Managed team's workload by preparing for a sprint and writing user stories in an Agile planning session.
+          </li>
+          <li>
+            <strong>J.P Morgan Software Engineering Project: </strong> Developed a Python-based live data visualisation dashboard using Perspective, translating complex datasets into clear insights.
           </li>
         </ul>
       </section>
