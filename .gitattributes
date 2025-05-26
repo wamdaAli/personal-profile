@@ -1,0 +1,28 @@
+# Set default behavior to automatically normalize text files
+* text=auto
+
+# Explicitly set LF as line ending for common text-based file types
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.sh     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.txt    text eol=lf
+*.env    text eol=lf
+
+# Binary files should be marked as binary to prevent line-ending normalization
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.ttf    binary
+*.woff   binary
+*.woff2  binary
